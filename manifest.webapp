@@ -23,9 +23,9 @@
   },
   "default_locale": "en-US",
   "icons": {
-    "120": "/style/logos/damn-vulnerable-logo-120.png",
-    "90": "/style/logos/damn-vulnerable-logo-90.png",
-    "60": "/style/logos/damn-vulnerable-logo-60.png"
+    "120": "/style/logos/dvfa-logo-120.png",
+    "90": "/style/logos/dvfa-logo-90.png",
+    "60": "/style/logos/dvfa-logo-60.png"
   },
   "orientation": "default",
   "messages": [ ] 

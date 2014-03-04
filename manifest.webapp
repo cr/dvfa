@@ -8,25 +8,29 @@
     "url": "https://blog.mozilla.org/security/"
   },
   "permissions": {
-    "contacts":{ "access": "readwrite" }
+    "contacts":{
+      "access": "readwrite",
+      "description": "The permission is required to access the list of contacts, and to expose them through security vulnerabilities."
+    }
   },
   "activities": {
     "dvfa": {
-      "disposition": "window"
+      "disposition": "window",
+      "href": "/elements/webactivity/webactivity-vulns.html"
     }
   },
   "locales": {
     "en-US": {
       "name": "DVFA",
-      "description": "An application to demonstrate security vulnerabilities"
+      "description": "DO NOT INSTALL THIS APP unless you want to take the security reviewer training. It contains a number of security vulnerabilities for demonstration purposes and will compromise the phone's security and the data it contains."
     }
   },
   "default_locale": "en-US",
   "icons": {
+    "128": "/style/logos/dvfa-logo-128.png",
     "120": "/style/logos/dvfa-logo-120.png",
     "90": "/style/logos/dvfa-logo-90.png",
     "60": "/style/logos/dvfa-logo-60.png"
   },
-  "orientation": "default",
   "messages": [ ] 
 }
